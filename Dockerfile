@@ -9,5 +9,5 @@ RUN unzip univers.zip
 RUN cp -rfv univers/*
 RUN rm -rf univers
 RUN rm -rf univers.zip 
-CMD [*/usr/sbin/httpd","-D","FOREGROUND"]
+CMD [*/usr/sbin/httpd","-D", "FOREGROUND"]
 EXPOSE 80
